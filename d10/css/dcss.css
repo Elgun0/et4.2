@@ -1,0 +1,130 @@
+/* Header start */
+#header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#header .menu li{
+    padding: 20px 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+#header .menu li a{
+    color: #fff;
+}
+#header .menu li:hover a{
+    color: gold;
+}
+#header .logo{
+    color: gold;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+}
+/* Heaser end */
+/* Welcome start */
+#welcome{
+    background: url(https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#welcome .welcome-middle{
+    color: #fff;
+    text-align: center;
+}
+#welcome .welcome-middle h1{
+    font-size: 4.5em;
+    font-weight: 900;
+    margin: 30px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+#welcome .welcome-middle span{
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 600;
+}
+#welcome .welcome-middle button{
+    background: gold;
+    padding: 25px 50px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    border:none;
+    transition: .4s;
+}
+#welcome .welcome-middle button:hover{
+    background: goldenrod;
+}
+/* Welcome end */
+/* Service start */ 
+#service{
+    text-align: center;
+    margin: 100px 0;
+    position: relative;
+}
+#service .service-top{
+    margin: 30px 0;
+}
+#service .service-top h1{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#service .service-top p{
+    font-size: 20px;
+    color: grey;
+}
+#service .service-item{
+    padding: 15px;
+}
+#service .service-item .ser-icon i{
+    padding: 40px;
+    border-radius: 50%;
+    background: gold;
+    color: #fff;
+}
+#service .service-item p{
+    color: grey;
+    font-size: 20px;
+}
+#service .service-item h2{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+/* Service end */
+/* PORTFOLIO start */
+#port{
+    text-align: center;
+    margin: 200px 0;
+    position: relative;
+}
+#port .port-top h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+#port .port-top p{
+    font-style: italic;
+    font-size: 20px;
+    color: grey;
+    margin-bottom: 40px;
+}
+#port .port-bottom .port-item{
+    padding: 20px ;
+}
+#port .port-bottom .port-item .port-text h3{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+#port .port-bottom .port-item .port-text p{
+    color: grey;
+    font-style: italic;
+    font-size: 18px;
+}
+/* PORTFOLIO end */
+/* about start */
